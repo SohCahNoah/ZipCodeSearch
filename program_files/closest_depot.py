@@ -9,6 +9,7 @@ from typing import List, Optional, Tuple
 from pathlib import Path
 from dotenv import load_dotenv
 from scipy.spatial import KDTree
+from time import perf_counter
 
 load_dotenv(Path(__file__).resolve().parent.parent / ".env")
 
@@ -157,22 +158,25 @@ if __name__ == "__main__":
     else:
         print("One of the test ZIPs was not found in the ZIP file.")
 
-    # --- KDTree test: nearest k depots by air, then road miles ---
+    user_zip = "97330"   # adjust as needed
+    k = 2
+    api = os.getenv("ORS_API_KEY")
+
+    t0 = perf_counter()
     result = closest_depot_using_KDtree(
-        user_zip="97330",
+        user_zip=user_zip,
         zips=z,
         depots=d,
-        k=2,
-        api_key=os.getenv("ORS_API_KEY"),
+        k=k,
+        api_key=api,
     )
+    t1 = perf_counter()
 
     if result is None:
-        print("KDTree test: ZIP 97330 not found.")
+        print(f"ZIP {user_zip} not found.")
     else:
-        road_miles_list, depot_list = result
-        print(f"\nNearest {len(depot_list)} depots to 97330:")
-        for i, (miles, depot) in enumerate(zip(road_miles_list, depot_list), start=1):
-            miles_str = f"{miles:.2f} mi" if miles is not None else "no route"
-            print(f"{i}. {depot['DepotAddress']}, {depot['DepotCity']} {depot['DepotZip']} — {miles_str}")
-
-    
+        distances, depots = result
+        print(f"\nNearest {len(depots)} depots to {user_zip} (computed in {(t1 - t0):.3f}s):")
+        for i, (dist, depot) in enumerate(zip(distances, depots), start=1):
+            dist_str = f"{dist:.2f} miles" if dist is not None else "no route"
+            print(f"{i}. {depot['DepotAddress']}, {depot['DepotCity']} {depot['DepotZip']} — {dist_str}")
