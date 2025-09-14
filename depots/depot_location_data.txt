@@ -1,33 +1,31 @@
-Depot Name	Depot Manager	Depot Phone Number	Depot Country	Depot Address	Depot City	Depot State 	Depot Zip	Lat	Long
-			US	6515 Delaware St.	Denver	CO	80221	39.8149558	-104.9923592
-			US	9801 NW 106th St.	Medley	FL	33178	25.8705469	-80.356017
-			US	2375 Guy N Verger Blvd.	Tampa	FL	33605	27.9302566	-82.437372
-			US	3030 Pioneer Rd.	Grandview	MO	64147	38.8682672	-94.5581956
-			US	8211 Fischer Rd.	Baltimore	MD	21224	39.2756491	-76.4605143
-			US	630 30th Ave NE. Minneapolis	Minneapolis	MN	55418	45.0217171	-93.2592982
-			US	360 Aqua Chem Dr.	Charlotte	NC	28208	35.2776174	-80.9074724
-			US	3930 River Rd.	Wilmington	NC	28412	34.1624012	-77.9422376
-			US	19-3 Hyatt Ave.	Newark	NJ	07105	40.7171236	-74.138237
-			US	700 Visco Dr.	Nashville	TN	37210	36.1582171	-86.7499615
-			US	131 West Express Dr.	Nashville	TN	37210	36.1490884	-86.7526389
-			US	12905 Gateway Blvd. W.	El Paso	TX	79928	31.6992683	-106.2808417
-			US	5048 W 700 S.	Salt Lake City	UT	84104	40.755448	-112.011653
-			US	2323 East Q. St.	Tacoma	WA	98421	47.2419368	-122.4077904
-			US	806 Neads Ct.	Chesapeake	VA	23323	36.7642592	-76.2811378
-			US	555A Maritime St.	Oakland	CA	94607	37.8054148	-122.3132055
-			US	11 Burma Rd.	Oakland	CA	94607	37.8227161	-122.3046801
-			US	3201 Wilbur Ave.	Antioch	CA	94509	38.0168975	-121.7643256
-			US	9639 N. Rivergate Blvd.	Portland	OR	97203	45.6205964	-122.7763919
-			US	321 Grange Rd.	Savannah	GA	31407	32.1366614	-81.1633975
-			US	124 Prosperity Dr.	Savannah	GA	31408	32.0774272	-81.1922496
-			US	1 South Idaho St.	Seattle	WA	98134	47.5638182	-122.344525
-			US	2700 E Crescentville Rd.	Cincinnati	OH	45069	39.2993667	-84.4289482
-			US	300 East 131st Ave.	Cleveland	OH	44108	41.5484515	-81.5923451
-			US	5155 Warner Rd.	Cleveland	OH	44125	41.4196496	-81.6310451
-			US	2400 Creekway Dr.	Columbus	OH	43207	39.8952623	-82.9358598
-			US	8501 West Fort St.	Detroit	MI	48209	42.2972908	-83.1222711
-			US	1420 West Troy Ave.	Indianapolis	IN	46225	39.7242926	-86.1860978
-			US	2345 Sauget Industrial Pkwy.	Sauget	IL	62206	38.571378	-90.1319961
-			US	1803 South Park Rd.	Louisville	KY	40219	38.1179967	-85.7337127
-			US	620 Bay Bridge Rd.	Mobile	AL	36610	30.7315914	-88.0701087
-			US	7211 W Southern Ave.	Laveen Village	AZ	85339	33.3903831	-112.2148411
+Depot Name	Depot Manager	Depot Phone Number	Depot Country	Depot Address	Depot City	Depot State	Depot Zip	Lat	Long
+Example Depot - New York City			US	100 Main St	New York	NY	10007	40.7128	-74.0060
+Example Depot - Los Angeles			US	100 Main St	Los Angeles	CA	90012	34.0522	-118.2437
+Example Depot - Chicago			US	100 Main St	Chicago	IL	60602	41.8781	-87.6298
+Example Depot - Houston			US	100 Main St	Houston	TX	77002	29.7604	-95.3698
+Example Depot - Phoenix			US	100 Main St	Phoenix	AZ	85003	33.4484	-112.0740
+Example Depot - Philadelphia			US	100 Main St	Philadelphia	PA	19102	39.9526	-75.1652
+Example Depot - San Antonio			US	100 Main St	San Antonio	TX	78205	29.4241	-98.4936
+Example Depot - San Diego			US	100 Main St	San Diego	CA	92101	32.7157	-117.1611
+Example Depot - Dallas			US	100 Main St	Dallas	TX	75201	32.7767	-96.7970
+Example Depot - Jacksonville			US	100 Main St	Jacksonville	FL	32202	30.3322	-81.6557
+Example Depot - Fort Worth			US	100 Main St	Fort Worth	TX	76102	32.7555	-97.3308
+Example Depot - San Jose			US	100 Main St	San Jose	CA	95113	37.3382	-121.8863
+Example Depot - Austin			US	100 Main St	Austin	TX	78701	30.2672	-97.7431
+Example Depot - Charlotte			US	100 Main St	Charlotte	NC	28202	35.2271	-80.8431
+Example Depot - Columbus			US	100 Main St	Columbus	OH	43215	39.9612	-82.9988
+Example Depot - Indianapolis			US	100 Main St	Indianapolis	IN	46204	39.7684	-86.1581
+Example Depot - San Francisco			US	100 Main St	San Francisco	CA	94102	37.7749	-122.4194
+Example Depot - Seattle			US	100 Main St	Seattle	WA	98101	47.6062	-122.3321
+Example Depot - Denver			US	100 Main St	Denver	CO	80202	39.7392	-104.9903
+Example Depot - Oklahoma City			US	100 Main St	Oklahoma City	OK	73102	35.4676	-97.5164
+Example Depot - Washington			US	100 Main St	Washington	DC	20004	38.9072	-77.0369
+Example Depot - Boston			US	100 Main St	Boston	MA	02108	42.3601	-71.0589
+Example Depot - Nashville			US	100 Main St	Nashville	TN	37219	36.1627	-86.7816
+Example Depot - El Paso			US	100 Main St	El Paso	TX	79901	31.7619	-106.4850
+Example Depot - Detroit			US	100 Main St	Detroit	MI	48226	42.3314	-83.0458
+Example Depot - Portland			US	100 Main St	Portland	OR	97204	45.5152	-122.6784
+Example Depot - Las Vegas			US	100 Main St	Las Vegas	NV	89101	36.1699	-115.1398
+Example Depot - Memphis			US	100 Main St	Memphis	TN	38103	35.1495	-90.0490
+Example Depot - Louisville			US	100 Main St	Louisville	KY	40202	38.2527	-85.7585
+Example Depot - Baltimore			US	100 Main St	Baltimore	MD	21202	39.2904	-76.6122

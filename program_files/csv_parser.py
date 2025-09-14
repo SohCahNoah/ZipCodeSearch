@@ -13,6 +13,7 @@ class ZipRecord(TypedDict):
     Long: float
 
 class DepotRecord(TypedDict):
+    DepotName: str
     DepotAddress: str
     DepotCity: str
     DepotZip: str
@@ -40,6 +41,7 @@ def parse_depot_file(path: Union[str, Path]) -> List[DepotRecord]:
         reader = csv.DictReader(f, delimiter="\t")
         for row in reader:
             rec: DepotRecord = {
+                "DepotName":    row["Depot Name"].strip(),
                 "DepotAddress": row["Depot Address"].strip(),
                 "DepotCity":    row["Depot City"].strip(),
                 "DepotZip":     row["Depot Zip"].strip(),

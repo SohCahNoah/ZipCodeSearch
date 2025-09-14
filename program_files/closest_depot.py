@@ -2,7 +2,7 @@
 #Purpose: Using csv_praser.py to get parsed zip and depot data, find the nearest depot to the user-provided zip-code
 #Returns: DepotEntry object containing information on the depot
 
-import csv_parser
+import program_files.csv_parser as csv_parser
 import os
 import requests
 from typing import List, Optional, Tuple
