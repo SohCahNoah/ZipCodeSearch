@@ -1,4 +1,4 @@
-﻿# Visual Studio specific files and directories
+# Visual Studio specific files and directories
 .vs/
 *.suo
 *.user
@@ -9,3 +9,9 @@
 appsettings.json
 web.config
 app.config
+
+#Archived files
+ARCHIVED/release_build/
+ARCHIVED/.gitignore
+ARCHIVED/ZipCodeSearch_ARCHIVED/ZipCodeSearch.csproj
+ARCHIVED/ZipCodeSearch.sln
