@@ -1,17 +1,7 @@
-# Visual Studio specific files and directories
-.vs/
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Configuration files
-appsettings.json
-web.config
-app.config
-
 #Archived files
 ARCHIVED/release_build/
 ARCHIVED/.gitignore
 ARCHIVED/ZipCodeSearch_ARCHIVED/ZipCodeSearch.csproj
 ARCHIVED/ZipCodeSearch.sln
+
+.env
